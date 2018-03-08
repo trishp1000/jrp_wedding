@@ -1,0 +1,38 @@
+/* Base Styles --------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color:  white;
+}
+a:hover {
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+/* Main Styles --------------------- */
+
+  .main-heading {
+    padding-top: 50px;
+    height: 500px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background: linear-gradient(gray, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                gray url('../img/weddingmusic1.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+ 
