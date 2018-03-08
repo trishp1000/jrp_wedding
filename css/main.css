@@ -1,7 +1,12 @@
+
+/* Web Fontss */
+
+
 /* Base Styles --------------------- */
 
 * {
 	box-sizing: border-box;
+  margin: 0 auto;  
 }
 
 a {
@@ -17,22 +22,70 @@ a:hover {
   color: white;
 }
 
-ul {
-    list-style-type: none;
-  }
+/* TRouBLe*/   
+ul, 
+li {
+  list-style-type: none;
+  margin: 0 auto;
+  text-indent: -50px;
+  padding-top: 20px;
+}
 
 /* Main Styles --------------------- */
 
   .main-heading {
-    padding-top: 50px;
-    height: 500px;
+    padding-top: 30px;
+    height: 300px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.25em;
     color: white;
-    background: linear-gradient(gray, transparent 90%),
+    background: linear-gradient(#404040, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
                 gray url('../img/weddingmusic1.jpg') no-repeat center;
     background-size: cover;
   }
 
- 
+  .h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  } 
+  
+
+/* Media Queries------------------- */
+
+/* tablet and laptop */
+@media (min-width: 769px) {
+
+/* Limit width of wider screens */
+  .intro-page {
+    width: 90%;
+  }
+  
+  .main-heading {
+    padding-top: 75px;
+    height: 500px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background: linear-gradient(#404040, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                gray url('../img/weddingmusic4.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
