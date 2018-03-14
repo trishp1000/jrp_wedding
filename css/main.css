@@ -1,7 +1,4 @@
 
-/* Web Fontss */
-
-
 /* Base Styles --------------------- */
 
 * {
@@ -13,6 +10,7 @@
 
 /* main heading style */
 .main-heading {
+    /* display: block; */
     padding-top: 30px;
     height: 300px;
     text-align: center;
@@ -36,14 +34,14 @@
 /* main body style */
 
   .main-body {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
   }
 
   img {
     max-width: 80%;
     border-radius: 50px;
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   h2 {
@@ -56,7 +54,9 @@
   p {
     color: #565759;
     text-align: left;
+    padding-top: 25px;
     margin-left: 25px;
+    margin-right: 25px;
   }
 }
 
@@ -68,10 +68,7 @@
     display: flex;
     padding-top: 85px;
     height: 250px;
-    text-align: center;
-    /* font-size: 1.2em; */
-    color: white;
-    background: linear-gradient(#404040, transparent 90%),
+    background: linear-gradient(black, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
                 gray url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
@@ -81,84 +78,49 @@
 /* medium screens */
 @media (min-width: 769px) {
   
-  .main-body {
-    padding-top: 50px;
-    width: 90%;
-  }
-
   .main-heading {
     display: flex;
     padding-top: 125px;
     height: 325px;
-    text-align: center;
-    color: white;
-    background: linear-gradient(#404040, transparent 90%),
+    background: linear-gradient(black, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
                 gray url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
   }
 
-  .side {
-    padding: 10px 0 20px 0;
-    font-size: 2em;
-    color: white;
+  .main-body {
+    padding-top: 50px;
+    width: 90%;
   }
 
-  .center {
-    font: 400 3em 'Great Vibes', Helvetica, sans-serif;
-    color: white;
+ /* 2 columns */
+
+  .col {
+    float: left;
+    width: 50%;
+    padding-right: 4em;
   }
-
-/* 2 columns */
-
-.col {
-  float: left;
-  background: url('../img/prombw.jpg"') no-repeat left;
-  background-size: cover;
-  border-radius: 50px;
-  opacity: 0.7;
-}
-
-.pic,
-.about {
-  width: 50%;
-  padding-right: 1em;
-}
-
-
 
 } /* 769px */
 
 /* larger screens screen */
 @media (min-width: 1025px) {
     
-    .main-body {
-      width: 80%;
-      padding-top: 100px;
-    }
-  
-    .main-heading {
+  .main-heading {
     display: flex;
     padding-top: 135px;
     height: 375px;
-    text-align: center;
     font-size: 2em;
-    color: white;
-    background: linear-gradient(#404040, transparent 90%),
+    background: linear-gradient(black, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
                 gray url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
   }
 
-  img {    
-    display: inline-block;
-    width: 25%; 
-    border-radius: 50px;
-    margin-left: -36px;
-    /* padding-left: 1em;
-    padding-right: 1em; */
-    opacity: 0.7;
-   }
+  .main-body {
+    padding-top: 100px;
+    width: 80%;
+  }
 
 } /* 1025px */
 
