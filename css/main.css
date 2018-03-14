@@ -9,61 +9,138 @@
   margin: 0 auto;  
 }
 
-a {
-  text-decoration: none;
-}
-a:link {
-  color: white;
-}
-a:visited {
-  color:  white;
-}
-a:hover {
-  color: white;
-}
-
-/* TRouBLe*/   
-ul, 
-li {
-  list-style-type: none;
-  margin: 0 auto;
-  text-indent: -50px;
-  padding-top: 20px;
-}
-
 /* Main Styles --------------------- */
 
-  .main-heading {
+/* main heading style */
+.main-heading {
     padding-top: 30px;
     height: 300px;
     text-align: center;
-    font-size: 1.25em;
-    color: white;
-    background: linear-gradient(#404040, transparent 90%),
+    background: linear-gradient(black, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
-                gray url('../img/weddingmusic1.jpg') no-repeat center;
+                black url('../img/weddingmusic1.jpg') no-repeat center;
     background-size: cover;
   }
 
-  .h1 {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-  } 
+  .side {
+    padding: 10px 0 20px 0;
+    font-size: 2em;
+    color: white;
+  }
   
+  .center {
+    font: 400 3em 'Great Vibes', Helvetica, sans-serif;
+    color: white;
+  }
+
+/* main body style */
+
+  .main-body {
+  display: block;
+  text-align: center;
+  }
+
+  img {
+    max-width: 80%;
+    border-radius: 50px;
+    opacity: 0.7;
+  }
+
+  h2 {
+    font: 400 2em 'Great Vibes', Helvetica, sans-serif;
+    color: #565759;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  p {
+    color: #565759;
+    text-align: left;
+    margin-left: 25px;
+  }
+}
 
 /* Media Queries------------------- */
 
-/* tablet and laptop */
-@media (min-width: 769px) {
+/* small screens */
+@media (min-width: 568px) {
+  .main-heading {
+    display: flex;
+    padding-top: 85px;
+    height: 250px;
+    text-align: center;
+    /* font-size: 1.2em; */
+    color: white;
+    background: linear-gradient(#404040, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                gray url('../img/weddingmusic4.jpg') no-repeat center;
+    background-size: cover;
+  }
+} /* 568px */
 
-/* Limit width of wider screens */
-  .intro-page {
+/* medium screens */
+@media (min-width: 769px) {
+  
+  .main-body {
+    padding-top: 50px;
     width: 90%;
   }
-  
+
   .main-heading {
-    padding-top: 75px;
-    height: 500px;
+    display: flex;
+    padding-top: 125px;
+    height: 325px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#404040, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                gray url('../img/weddingmusic4.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .side {
+    padding: 10px 0 20px 0;
+    font-size: 2em;
+    color: white;
+  }
+
+  .center {
+    font: 400 3em 'Great Vibes', Helvetica, sans-serif;
+    color: white;
+  }
+
+/* 2 columns */
+
+.col {
+  float: left;
+  background: url('../img/prombw.jpg"') no-repeat left;
+  background-size: cover;
+  border-radius: 50px;
+  opacity: 0.7;
+}
+
+.pic,
+.about {
+  width: 50%;
+  padding-right: 1em;
+}
+
+
+
+} /* 769px */
+
+/* larger screens screen */
+@media (min-width: 1025px) {
+    
+    .main-body {
+      width: 80%;
+      padding-top: 100px;
+    }
+  
+    .main-heading {
+    display: flex;
+    padding-top: 135px;
+    height: 375px;
     text-align: center;
     font-size: 2em;
     color: white;
@@ -73,17 +150,19 @@ li {
     background-size: cover;
   }
 
+  img {    
+    display: inline-block;
+    width: 25%; 
+    border-radius: 50px;
+    margin-left: -36px;
+    /* padding-left: 1em;
+    padding-right: 1em; */
+    opacity: 0.7;
+   }
 
-
-
-
-
-
-
-
+} /* 1025px */
 
 /* ---- Float clearfix ---- */
-
 .clearfix::after {
   content: " ";
   display: table;
