@@ -10,13 +10,12 @@
 
 /* main heading style */
 .main-heading {
-    /* display: block; */
     padding-top: 30px;
     height: 300px;
     text-align: center;
-    background: linear-gradient(black, transparent 90%),
+    background: linear-gradient(#000000, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
-                black url('../img/weddingmusic1.jpg') no-repeat center;
+                url('../img/weddingmusic2.png') no-repeat center;
     background-size: cover;
   }
 
@@ -27,14 +26,13 @@
   }
   
   .center {
-    font: 400 3em 'Great Vibes', Helvetica, sans-serif;
+    font: 3em 'Great Vibes', Helvetica, sans-serif;
     color: white;
   }
 
 /* main body style */
 
   .main-body {
-    display: block;
     text-align: center;
   }
 
@@ -45,10 +43,10 @@
   }
 
   h2 {
-    font: 400 2em 'Great Vibes', Helvetica, sans-serif;
+    font: 2em 'Great Vibes', Helvetica, sans-serif;
     color: #565759;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   p {
@@ -58,33 +56,41 @@
     margin-left: 25px;
     margin-right: 25px;
   }
+
+.main-footer {
+	background: linear-gradient(white, #A9A9A9);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	/* trouble */
+	padding: 3em 0 1.5em 0;
+	margin-top: 50px;
 }
 
 /* Media Queries------------------- */
 
 /* small screens */
-@media (min-width: 568px) {
+@media (min-width: 400px) {
   .main-heading {
     display: flex;
-    padding-top: 85px;
+    padding-top: 60px;
     height: 250px;
-    background: linear-gradient(black, transparent 90%),
+    background: linear-gradient(#000000, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
-                gray url('../img/weddingmusic4.jpg') no-repeat center;
+                url('../img/weddingmusic1.jpg') no-repeat center;
     background-size: cover;
   }
-} /* 568px */
+} /* media query end 400px */
 
 /* medium screens */
-@media (min-width: 769px) {
-  
+@media (min-width: 700px) {
   .main-heading {
     display: flex;
-    padding-top: 125px;
-    height: 325px;
-    background: linear-gradient(black, transparent 90%),
+    padding-top: 90px;
+    height: 275px;
+    background: linear-gradient(#000000, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
-                gray url('../img/weddingmusic4.jpg') no-repeat center;
+                url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
   }
 
@@ -101,19 +107,18 @@
     padding-right: 4em;
   }
 
-} /* 769px */
+} /* media query end 700px */
 
 /* larger screens screen */
 @media (min-width: 1025px) {
-    
   .main-heading {
     display: flex;
-    padding-top: 135px;
-    height: 375px;
-    font-size: 2em;
-    background: linear-gradient(black, transparent 90%),
+    padding-top: 100px;
+    height: 300px;
+    font-size: 1.75em;
+    background: linear-gradient(#000000, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
-                gray url('../img/weddingmusic4.jpg') no-repeat center;
+                url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
   }
 
@@ -122,7 +127,7 @@
     width: 80%;
   }
 
-} /* 1025px */
+} /*  media query end 1025px */
 
 /* ---- Float clearfix ---- */
 .clearfix::after {
