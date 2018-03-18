@@ -42,27 +42,71 @@
     opacity: 0.8;
   }
 
-  h2 {
+  h1 {
     font: 2em 'Great Vibes', Helvetica, sans-serif;
     color: #565759;
     font-weight: bold;
-    padding-top: 25px;
   }
 
   p {
     color: #565759;
     text-align: left;
-    padding-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
   }
+
+/* phone # and form style */
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+.phone {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #49579c;
+  opacity: 0.7;
+  font-size: 16px;
+  color: white;
+  border: none;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  /* TRouBLe */
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.box-lable {
+  color: #565759;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -35px;
+}
+
+/* button style */
+
+button {
+  padding: 10px 20px 10px 20px;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  /* margin-left: 35px; */
+  margin-bottom: 10px;
+  background-color: #565759;
+  opacity: 0.6;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 .main-footer {
 	background: linear-gradient(white, #A9A9A9);
 	background-size: cover;
 	color: white;
 	text-align: center;
-	/* trouble */
 	padding: 3em 0 1.5em 0;
 	margin-top: 50px;
 }
