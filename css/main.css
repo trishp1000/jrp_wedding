@@ -72,16 +72,16 @@ select,
   height: auto;
   margin: 0;
   outline: 0;
-  /* TRouBLe */
   padding: 15px;
   margin-bottom: 20px;
 }
 
-.box-lable {
-  color: #565759;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: -35px;
+::placeholder { 
+  color: white;
+}
+
+.inputBgOpaque:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px #b6bbc4 inset;
 }
 
 /* button style */
@@ -93,9 +93,9 @@ button {
   text-align: center;
   /* margin-left: 35px; */
   margin-bottom: 10px;
-  background-color: #565759;
+  background-color: #b6bbc4;
   opacity: 0.6;
-  color: white;
+  color: black;
   font-size: 1em;
   font-weight: bold;
   font-style: normal;
