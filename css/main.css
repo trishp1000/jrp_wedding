@@ -36,11 +36,18 @@
     text-align: center;
   }
 
-  img {
+  .vocalist {
     max-width: 80%;
     border-radius: 50px;
     opacity: 0.8;
   }
+
+  .quote {
+    max-width: 17%;
+    border-style: none;
+    padding-top: 20px;
+  }
+
 
   h1 {
     font: 2em 'Great Vibes', Helvetica, sans-serif;
