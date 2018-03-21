@@ -31,16 +31,20 @@ The class(es) I created are:
 4.  .main-body
         I added this class so that the main section would be in a container that would allow me to adjust the width. In this case, I did not want the main body to span the entire width of the page. It allowed me to set different maximum widths in my media queries.
 
-5.  .phone
+5.  .vocalist
+    .quote
+        I was originally using the img tag to style the image of my daughter, but had change to using the 2 separate classes so that my daughter’s image and the quote image could have different styles.
+
+6.  .phone
         I added this class so I could style the phone # to look like the input fields for name and email address.
 
-6.  ::placeholder
+7.  ::placeholder
         I used this pseudo class so that the labels for my input fields would be imbedded inside the input boxes.
 
-7.  .inputBgOpaque
+8.  .inputBgOpaque
         I used this class to prevent the background color of my name and email input fields from turning (google chrome) yellow when the user allows Chrome to auto-fill the input fields. I googled this issue and found this solution.
 
-8.  .main-footer
+9.  .main-footer
         I added this class so that the footer area would span then entire width of the page and so I could easily add a background image and style to my heading.
 
 ```
