@@ -14,7 +14,7 @@ people who contact her. It's a work in progress. Hopefully, I'll pass this semes
 
 ## Custom CSS Classes
 ```
-The class(es) I created are:
+The class(es) I created:
 
 1.  .main-heading
         I added this class so that the heading area would span then entire width of the page, to provide a
@@ -64,9 +64,9 @@ The class(es) I created are:
 
 ## Custom JavaScript Functions
 ```
-The javascript functions I created are:
+The javascript function(s) I created:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. function check()
+.. This funciton checks for blank input fields and reminds the site visitor to input teh missing value.
 
 ```

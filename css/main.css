@@ -6,9 +6,8 @@
   margin: 0 auto;  
 }
 
-/* Main Styles --------------------- */
-
 /* main heading style */
+
 .main-heading {
     padding-top: 30px;
     height: 300px;
@@ -49,7 +48,6 @@
     opacity: 0.55;
   }
 
-
   h1 {
     font: 2em 'Great Vibes', Helvetica, sans-serif;
     color: #565759;
@@ -84,9 +82,14 @@ select,
   margin-bottom: 20px;
 }
 
+/* pseudo class used to put the labels inside the text box */
+
 ::placeholder { 
   color: white;
 }
+
+/* class to overwrite the (google chrome) yellow fill that results
+   autofilling the fields */
 
 .inputBgOpaque:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 100px #b6bbc4 inset;

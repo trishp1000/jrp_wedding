@@ -1,4 +1,6 @@
 // This function checks for blank input text fields
+// It will alert the site visitor if he/she leaves one or both fields
+// blank when they click 'send'.
 
 function check()  {
 
