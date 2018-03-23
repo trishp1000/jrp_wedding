@@ -51,14 +51,14 @@
               <span class="phone">(812)923-8843</span>
             </div>
 
-            <form action="index.html" method="post">
+            <form action="index.html" method="post" onsubmit="return isEmpty">
               <br>
               <h1>Email Me</h1>
               <input type="text" placeholder="NAME" class="inputBgOpaque" id="name" name="client_name">
               <br>
-              <input type="email" placeholder="EMAIL ADDRESS" class="inputBgOpaque" id="mail" name="client_email">
+              <input type="email" placeholder="EMAIL" class="inputBgOpaque" id="mail" email="client_email">
               <br>
-              <button type="submit">SEND</button>
+              <button id="send" type="submit" onclick="return check();">SEND</button>
             </form>
 
           </div> <!-- about col container -->  
@@ -70,6 +70,10 @@
     <footer id="bottom" class="main-footer">
 		<span>&copy;2018 JRP</span>
     </footer>
-  <script src="js/app.js"></script>
+    
+    <!--JavaScript function to check for empty fields -->
+    <script src="js/app.js"></script>
+    
   </body>
+ 
 </html>

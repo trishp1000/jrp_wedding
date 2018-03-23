@@ -43,7 +43,7 @@
   }
 
   .quote {
-    max-width: 17%;
+    max-width: 18%;
     border-style: none;
     padding-top: 20px;
     opacity: 0.55;
@@ -111,7 +111,7 @@ button {
 
 
 .main-footer {
-	background: linear-gradient(white, #A9A9A9);
+	background: linear-gradient(white, #1e2b3b);
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -140,7 +140,7 @@ button {
     display: flex;
     padding-top: 90px;
     height: 275px;
-    background: linear-gradient(#000000, transparent 90%),
+    background: linear-gradient(#233a59, transparent 90%),
                 linear-gradient(0deg, #fff, transparent),
                 url('../img/weddingmusic4.jpg') no-repeat center;
     background-size: cover;
